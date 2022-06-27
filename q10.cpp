@@ -19,7 +19,7 @@ int main()
 {
     string str,rev;
     cout<<"\nenter the string:";
-    cin>>str;
+    getline(std::cin,str);
 	reverse(str,str.size());
 	cout<<str;
 }
