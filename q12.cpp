@@ -10,12 +10,12 @@
 #include <string>
 using namespace std;
 void hail(int n){
-if(n<=1){
+    if(n<0){
+    cout<<"invalid";
+    }
+ else if(n<=1){
     cout<<n;
     return;
-    }
-else if(n<0){
-    cout<<"invalid";
     }
 else{
     cout<<n<<" ";
